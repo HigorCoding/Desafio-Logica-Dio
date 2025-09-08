@@ -1,4 +1,4 @@
-# 🦸 Classificador de Nível de Herói
+# 🦸 Classificador de Nível de Herói - EXERCICIO 01
 
 ![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow)
 ![Status](https://img.shields.io/badge/Status-Concluído-green)
@@ -51,5 +51,55 @@ O Herói de nome Ash está no nível de Radiante
 1. Instale o [Node.js](https://nodejs.org/).  
 2. Salve o arquivo como `classificadorHeroi.js`.  
 3. Abra o terminal na pasta do arquivo e execute:
-```bash
+
 node classificadorHeroi.js
+
+---
+
+# 🎮 Calculadora de Partidas Rankeadas - EXERCICIO 02
+
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow)
+![Status](https://img.shields.io/badge/Status-Concluído-green)
+![Node.js](https://img.shields.io/badge/Platform-Node.js-brightgreen)
+
+## 📌 Descrição
+Projeto em **JavaScript** que calcula o saldo de partidas ranqueadas de um herói e determina seu nível com base na quantidade de vitórias e derrotas.  
+
+Foi criada uma **função** para calcular o saldo (vitórias - derrotas) e outra para **definir o nível** de acordo com o saldo obtido.  
+
+---
+
+## 🎯 Objetivo
+Criar uma função que receba como parâmetros o número de vitórias e derrotas, calcule o saldo de ranqueadas e determine o nível do jogador:
+
+| Vitórias                  | Nível     |
+|----------------------------|----------|
+| Menor que 10               | Ferro    |
+| 11 - 20                    | Bronze   |
+| 21 - 50                    | Prata    |
+| 51 - 80                    | Ouro     |
+| 81 - 90                    | Diamante |
+| 91 - 100                   | Lendário |
+| Maior ou igual a 101       | Imortal  |
+
+---
+
+## 🛠 Tecnologias Utilizadas
+- **JavaScript**
+- Variáveis e Operadores
+- Estruturas de Decisão (`if/else`)
+- Funções
+- Laços de repetição (caso necessário em melhorias futuras)
+
+---
+
+## ✅ Saída Esperada
+
+O Herói tem saldo de 1 e está no nível de Ferro
+
+---
+
+## 📚 Observações
+- A lógica é **flexível e de fácil manutenção**: basta ajustar as faixas no `if/else` dentro da função `getLevel`.  
+- O uso de **funções separadas** (uma para calcular saldo e outra para definir nível) torna o código mais **organizado e reutilizável**.  
+- Estrutura pronta para evoluções, como inserir novos níveis ou estatísticas adicionais.  
