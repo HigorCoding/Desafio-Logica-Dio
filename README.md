@@ -102,4 +102,74 @@ O Herói tem saldo de 1 e está no nível de Ferro
 ## 📚 Observações
 - A lógica é **flexível e de fácil manutenção**: basta ajustar as faixas no `if/else` dentro da função `getLevel`.  
 - O uso de **funções separadas** (uma para calcular saldo e outra para definir nível) torna o código mais **organizado e reutilizável**.  
-- Estrutura pronta para evoluções, como inserir novos níveis ou estatísticas adicionais.  
+- Estrutura pronta para evoluções, como inserir novos níveis ou estatísticas adicionais.
+
+---
+
+# ⚔️ Classe de Herói - EXERCICIO 03
+
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow)
+![Status](https://img.shields.io/badge/Status-Concluído-green)
+![Node.js](https://img.shields.io/badge/Platform-Node.js-brightgreen)
+
+## 📌 Descrição
+Projeto em **JavaScript** que implementa uma classe `Hero`, representando um herói de aventura.  
+Cada herói possui os atributos **nome**, **idade** e **tipo** (guerreiro, mago, monge ou ninja).  
+O método `attack()` exibe uma mensagem personalizada de ataque, variando conforme o tipo do herói.  
+
+---
+
+## 🎯 Objetivo
+- Criar uma classe genérica para heróis com as seguintes propriedades:
+  - **nome**
+  - **idade**
+  - **tipo** (guerreiro, mago, monge, ninja)
+- Implementar o método `attack()` que deve exibir a mensagem:
+O {tipo} atacou usando {ataque}
+
+---
+
+### Tabela de ataques por tipo:
+| Tipo       | Ataque              |
+|------------|---------------------|
+| mago       | usou magia          |
+| guerreiro  | usou espada         |
+| monge      | usou artes marciais |
+| ninja      | usou shuriken       |
+
+---
+
+## 🛠 Tecnologias Utilizadas
+- **JavaScript**
+- Variáveis e Operadores
+- Estruturas de Decisão (`if/else`)
+- Classes e Objetos
+- Funções
+
+---
+
+## ✅ Saída Esperada
+
+Exemplo de execução:
+
+mago atacou usando magia,
+guerreiro atacou usando espada,
+monge atacou usando artes marciais,
+ninja atacou usando shuriken.
+
+---
+
+## 📚 Observações
+- O projeto reforça os conceitos básicos de **POO em JavaScript**.  
+- A lógica de ataque pode ser facilmente expandida para novos tipos de heróis.  
+
+---
+
+## 💻 Como Executar
+1. Instale o [Node.js](https://nodejs.org/).  
+2. Salve o arquivo como `classeHeroi.js`.  
+3. Abra o terminal na pasta do arquivo e execute:
+
+```bash
+node classeHeroi.js
+
